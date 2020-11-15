@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Mercado Visual</title>
+
+	<link rel="stylesheet" href="~/styleBoleto/estilo.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="~/styleBoleto/responsivo.css">
+</head>
+<body>
+
+	<header>
+        <a asp-action="inicio">
+        <img src="~/imgs/iconBoleto/leave.png" alt="">
+        </a>
+        <h1 style="color: white;">Pagar Boletos e Tributos</h1>
+    </header>
+    
+    <a asp-action="scanearBoleto">
+        <div id="buttonescanner">
+            <h1 class="txtescanear"> Escanear </h1>
+            <img class="imgscan" src="~/imgs/iconBoleto/CodigoBarras.png" alt="">
+        </div>
+    </a>
+    <div id="pagRecorrentes">
+        <h1 class="txth1">Pagamentos Recorrentes</h1>
+        <p class="pPagReco">Não encontramos recorrências nos pagamentos de boletos</p>
+    </div>
+    <div id="historico">
+        <h1 class="txthistorico">Histórico</h1>
+        <div class="hist">
+            <p class="histxtstyle">Você Pagou Conta de Luz</p>
+            <div class="vlrdata">
+                <p class="valortxt">-R$250,00</p>
+                <p class="datatxt">22 de Setembro de 2020</p>
+            </div>
+        </div>
+        <div class="hist">
+            <p class="histxtstyle">Você Pagou Conta de Agua</p>
+            <div class="vlrdata2">
+                <p class="valortxt">-R$4150,00</p>
+                <p class="datatxt">13 de dezembro de 2019</p>
+            </div>
+        </div>
+        <div class="hist">
+            <p class="histxtstyle">Você Pagou Conta de Telefone</p>
+            <div class="vlrdata3">
+                <p class="valortxt">-R$50,00</p>
+                <p class="datatxt">30 de janeiro de 2019</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

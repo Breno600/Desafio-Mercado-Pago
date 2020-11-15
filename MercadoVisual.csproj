@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\MercadoVisual_telas\**" />
+    <Content Remove="Views\MercadoVisual_telas\**" />
+    <EmbeddedResource Remove="Views\MercadoVisual_telas\**" />
+    <None Remove="Views\MercadoVisual_telas\**" />
+  </ItemGroup>
+
+</Project>
