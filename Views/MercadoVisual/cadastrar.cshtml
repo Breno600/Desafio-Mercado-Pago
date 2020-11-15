@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Mercado Visual</title>
+
+	<link rel="stylesheet" href="~/styleCadastrar/estilo.css">
+	<link rel="stylesheet" href="~/styleCadastrar/responsivo.css">
+</head>
+<body>
+<div id="contmaster">
+	<div id="cont">
+		<img src="~/imgs/mercadoPago.png" alt="">
+	</div>
+	<div id="cont2">
+			<form asp-action="inicio">
+                <input type="text" name="nome" id="nome" class="inputStyle" placeholder="Nome">
+                <input type="text" name="email" id="email" class="inputStyle" placeholder="E-mail">
+                <input type="password" name="senha" id="senha" class="inputStyle" placeholder="Senha">
+                <input type="submit" id="submitEntrar" value="Entrar">
+            </form>
+    </div>
+</div>
+</body>
+</html>
